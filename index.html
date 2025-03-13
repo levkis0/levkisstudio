@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levkis Studio | Web & Telegram Bot Development</title>
+    <meta name="description" content="Professional web development and Telegram bot services by Levkis Studio">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">Levkis Studio</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Головна</a></li>
+                    <li><a href="#about">Про нас</a></li>
+                    <li><a href="#services">Послуги</a></li>
+                    <li><a href="#order" class="btn btn-small">Замовити</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Levkis Studio</h1>
+                <p>Професійна розробка веб-сайтів та Telegram ботів для вашого бізнесу</p>
+                <div class="hero-buttons">
+                    <a href="#order" class="btn btn-primary">Замовити проект</a>
+                    <a href="#about" class="btn btn-outline">Дізнатися більше</a>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#about">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Про нашу компанію</h2>
+                <p>Levkis Studio - це команда професіоналів, які створюють інноваційні веб-рішення та Telegram ботів для
+                    бізнесу будь-якого масштабу.</p>
+            </div>
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Швидкість</h3>
+                    <p>Ми розробляємо та запускаємо проекти в найкоротші терміни, не втрачаючи якості.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Технології</h3>
+                    <p>Використовуємо сучасні технології та фреймворки для створення надійних та ефективних рішень.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Підтримка</h3>
+                    <p>Надаємо повну підтримку після запуску проекту та допомагаємо з розвитком вашого бізнесу.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Наші послуги</h2>
+                <p>Ми пропонуємо широкий спектр послуг для задоволення потреб вашого бізнесу</p>
+            </div>
+            <div class="service-cards">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Розробка веб-сайтів</h3>
+                    <p>Створюємо сучасні, швидкі та адаптивні веб-сайти для бізнесу, портфоліо, блогів та
+                        інтернет-магазинів.</p>
+                    <a href="#order" class="btn btn-primary">Замовити</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Telegram боти</h3>
+                    <p>Розробляємо функціональних Telegram ботів для автоматизації бізнес-процесів, підтримки клієнтів
+                        та маркетингу.</p>
+                    <a href="#order" class="btn btn-primary">Замовити</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Аналітика та SEO</h3>
+                    <p>Налаштовуємо аналітику для відстеження ефективності вашого сайту та оптимізуємо його для
+                        пошукових систем.</p>
+                    <a href="#order" class="btn btn-primary">Замовити</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Form Section -->
+    <section id="order" class="order">
+        <div class="container">
+            <div class="section-header">
+                <h2>Замовити проект</h2>
+                <p>Заповніть форму нижче, і ми зв'яжемося з вами для обговорення деталей вашого проекту</p>
+            </div>
+            <div class="order-form-container">
+                <form id="orderForm" class="order-form">
+                    <div class="form-group">
+                        <label for="fullName">ПІБ</label>
+                        <input type="text" id="fullName" name="fullName" placeholder="Введіть ваше повне ім'я" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Номер телефону</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+380XXXXXXXXX" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Електронна пошта</label>
+                        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telegram">Telegram нік</label>
+                        <input type="text" id="telegram" name="telegram" placeholder="@username" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Тип послуги</label>
+                        <div class="radio-group">
+                            <div class="radio-option">
+                                <input type="radio" id="website" name="serviceType" value="website" checked>
+                                <label for="website">Веб-сайт</label>
+                            </div>
+                            <div class="radio-option">
+                                <input type="radio" id="telegram-bot" name="serviceType" value="telegram-bot">
+                                <label for="telegram-bot">Telegram бот</label>
+                            </div>
+                            <div class="radio-option">
+                                <input type="radio" id="other" name="serviceType" value="other">
+                                <label for="other">Інше</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Повідомлення</label>
+                        <textarea id="message" name="message" placeholder="Опишіть ваш проект..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <i class="fas fa-paper-plane"></i> Підтвердити замовлення
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Levkis Studio</h3>
+                    <p>Професійна розробка веб-сайтів та Telegram ботів для вашого бізнесу</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-nav">
+                    <h3>Навігація</h3>
+                    <ul>
+                        <li><a href="#home">Головна</a></li>
+                        <li><a href="#about">Про нас</a></li>
+                        <li><a href="#services">Послуги</a></li>
+                        <li><a href="#order">Замовити</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Контакти</h3>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +380 XX XXX XX XX</li>
+                        <li><i class="fas fa-envelope"></i> info@levkisstudio.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Україна</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Levkis Studio. Всі права захищені.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">
+        <div class="toast-content">
+            <i id="toastIcon" class="fas"></i>
+            <div class="toast-message">
+                <span id="toastTitle" class="toast-title"></span>
+                <span id="toastText" class="toast-text"></span>
+            </div>
+        </div>
+        <div class="toast-progress"></div>
+    </div>
+
+    <!-- Firebase Scripts -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-analytics-compat.js"></script>
+
+    <!-- Main Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
