@@ -1,4 +1,4 @@
-const apiKey = "5d5d8d35740cabf7e723aa4ac9d44954"; // Замініть на ваш API ключ OpenWeather
+const apiKey = "b8bfe449294efdda40f4ea84e691d78c"; // Замініть на ваш API ключ OpenWeather
 
 document.getElementById("search-btn").addEventListener("click", () => {
   const city = document.getElementById("city-input").value;
